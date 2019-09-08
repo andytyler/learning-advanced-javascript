@@ -1,8 +1,14 @@
+// Array methods 
+const numberArray = [1,2,3,4,5,6,7,8,9]
+const numberArray = [1,2,3,4,5,6,7,8,9]
 
-// Array map function
-const startingArray = [1,2,3,4,5,6,7,8,9]
 
-const newArray = startingArray.map(item => {
+// SECTION Array map function - Array.map()
+const newArray = numberArray.map(item => {
     return item + 4
+    console.log('[',item.index,'] ',)
 })
-console.log(startingArray,' Array.map() -> ',newArray)
+
+
+// SECTION Array forEach function - Array.forEach()
+
